@@ -21,4 +21,5 @@ Hi, I'm Om Lahore from Pune, India — a passionate Computer Science student in 
 ---
 [![](https://visitcount.itsvg.in/api?id=omlahore&icon=0&color=12)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<img src="https://raw.githubusercontent.com/omlahore/omlahore/output/snake.svg" alt="Snake animation" />
+
