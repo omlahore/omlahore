@@ -1,4 +1,4 @@
-# 💫 About Me:
+# ABOUT ME:
 Hi, I'm Om Lahore from Pune, India — a passionate Computer Science student in my 3rd year at Vishwakarma Institute Of Information Technology, Pune.<br><br>I specialize in crafting responsive web experiences, building full-stack applications, and solving algorithmic problems. I’m currently a Web Developer Intern at Marketing Mojito
 
 
