@@ -2,12 +2,25 @@
 Hi, I'm Om Lahore from Pune, India — a passionate Computer Science student in my 3rd year at Vishwakarma Institute Of Information Technology, Pune.<br><br>I specialize in crafting responsive web experiences, building full-stack applications, and solving algorithmic problems. I’m currently a Web Developer Intern at Marketing Mojito
 
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/om-lahorey) 
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:omlahore47@gmail.com) 
-[![Website](https://img.shields.io/badge/Website-omlahore.com-lightgrey?style=flat)](https://omlahore.com) 
-[![Medium](https://img.shields.io/badge/Medium-%2312100E.svg?logo=medium&logoColor=white)](https://medium.com/@omlahore47) 
-[![X](https://img.shields.io/badge/X-%23000000.svg?logo=x&logoColor=white)](https://x.com/OmLahorey)
+## 🌐 Socials
+
+<p align="center">
+  <a href="https://linkedin.com/in/om-lahorey" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:omlahore47@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://omlahore.com" target="_blank">
+    <img src="https://img.shields.io/badge/Website-omlahore.com-black?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://medium.com/@omlahore47" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-%23000000.svg?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  </a>
+  <a href="https://x.com/OmLahorey" target="_blank">
+    <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+  </a>
+</p>
 
 
 # 💻 Tech Stack:
