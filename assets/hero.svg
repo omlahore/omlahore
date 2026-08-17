@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="A terminal replaying a real bug: an unchecked Go type assertion that panicked in Kyverno, the guard that fixed it, and the note that it was merged and backported to release 1.19.">
+  <title>Om Lahore: finds bugs by reading code</title>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .fg   { fill: #c9d3df; }
+    .dim  { fill: #5b6673; }
+    .key  { fill: #7aa2f7; }
+    .str  { fill: #9ece6a; }
+    .warn { fill: #e0af68; }
+    .bad  { fill: #f7768e; }
+    .good { fill: #73daca; }
+
+    /* one shared 16s timeline, each beat fades in at its own offset */
+    .beat { opacity: 0; animation: beat 16s ease-out infinite; }
+    @keyframes beat { 0%,4% {opacity:0} 8%,92% {opacity:1} 97%,100% {opacity:0} }
+
+    .b1 { animation-delay: 0s }
+    .b2 { animation-delay: .9s }
+    .b3 { animation-delay: 2.6s }
+    .b4 { animation-delay: 4.3s }
+    .b5 { animation-delay: 6.4s }
+    .b6 { animation-delay: 8.0s }
+    .b7 { animation-delay: 9.6s }
+
+    /* command types in by revealing a clip rect */
+    .typeclip { animation: type 16s steps(38) infinite; }
+    @keyframes type { 0% {width:0} 5% {width:0} 14% {width:366px} 92% {width:366px} 97%,100% {width:0} }
+
+    .cursor { fill: #7aa2f7; animation: blink 1.06s step-end infinite; }
+    @keyframes blink { 0%,49% {opacity:1} 50%,100% {opacity:0} }
+
+    /* the flawed token pulses red before the panic lands */
+    .flaw { animation: flaw 16s ease-in-out infinite; }
+    @keyframes flaw { 0%,26% {opacity:.45} 30%,38% {opacity:1} 42%,100% {opacity:.45} }
+
+    .scan { animation: scan 16s ease-in-out infinite; }
+    @keyframes scan { 0%,22% {opacity:0} 28% {opacity:.5} 36% {opacity:0} 100% {opacity:0} }
+
+    @media (prefers-reduced-motion: reduce) {
+      .beat, .typeclip, .cursor, .flaw, .scan { animation: none; opacity: 1 }
+      .typeclip { width: 366px }
+    }
+  </style>
+
+  <defs>
+    <clipPath id="tc"><rect class="typeclip" x="0" y="0" width="366" height="30" /></clipPath>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a3f5f" /><stop offset="1" stop-color="#1b2330" />
+    </linearGradient>
+  </defs>
+
+  <!-- terminal chrome -->
+  <rect x="1" y="1" width="878" height="298" rx="10" fill="#11151c" stroke="url(#edge)" stroke-width="1.5" />
+  <rect x="1" y="1" width="878" height="34" rx="10" fill="#161b23" />
+  <rect x="1" y="26" width="878" height="9" fill="#161b23" />
+  <circle cx="22" cy="18" r="5" fill="#f7768e" /><circle cx="40" cy="18" r="5" fill="#e0af68" /><circle cx="58" cy="18" r="5" fill="#9ece6a" />
+  <text class="mono dim" x="80" y="22" font-size="11.5">omlahore, bug hunt</text>
+  <text class="mono dim" x="800" y="22" font-size="11.5">kyverno</text>
+
+  <!-- command -->
+  <g clip-path="url(#tc)">
+    <text class="mono" x="22" y="66" font-size="13.5">
+      <tspan class="good">$</tspan><tspan class="fg" dx="8">grep -rn '\.(string)$' --include='*.go'</tspan>
+    </text>
+  </g>
+  <rect class="cursor" x="358" y="55" width="7.5" height="15" />
+
+  <!-- beat 2: the offending line -->
+  <g class="beat b2">
+    <text class="mono dim" x="22" y="98" font-size="12.5">pkg/engine/handlers/validation/validate_resource.go:476</text>
+    <text class="mono" x="22" y="120" font-size="13.5">
+      <tspan class="key">msg</tspan><tspan class="fg"> := </tspan><tspan class="fg">msgRaw</tspan><tspan class="bad flaw">.(string)</tspan>
+    </text>
+    <rect class="scan" x="18" y="106" width="330" height="19" fill="#f7768e" opacity="0" />
+  </g>
+
+  <!-- beat 3: it panics -->
+  <g class="beat b3">
+    <text class="mono bad" x="22" y="150" font-size="13.5">panic: interface conversion: interface {} is int64, not string</text>
+  </g>
+
+  <!-- beat 4: why -->
+  <g class="beat b4">
+    <text class="mono dim" x="22" y="172" font-size="12">a policy message that is a single variable resolves to the raw value,</text>
+    <text class="mono dim" x="22" y="189" font-size="12">so it is not guaranteed to be a string. the assertion takes the process down.</text>
+  </g>
+
+  <!-- beat 5: the fix -->
+  <g class="beat b5">
+    <text class="mono" x="22" y="219" font-size="13.5">
+      <tspan class="bad">-</tspan><tspan class="fg" dx="10">msg := msgRaw.(string)</tspan>
+    </text>
+    <text class="mono" x="22" y="240" font-size="13.5">
+      <tspan class="str">+</tspan><tspan class="fg" dx="10">msg := fmt.Sprintf(</tspan><tspan class="str">"%v"</tspan><tspan class="fg">, msgRaw)</tspan>
+    </text>
+  </g>
+
+  <!-- beat 6: shipped -->
+  <g class="beat b6">
+    <rect x="20" y="256" width="9" height="9" rx="1.5" fill="#73daca" />
+    <text class="mono good" x="40" y="265" font-size="12.5">merged, backported to release-1.19</text>
+  </g>
+
+  <!-- beat 7: the point -->
+  <g class="beat b7">
+    <text class="mono warn" x="520" y="265" font-size="12.5">nobody filed this one.</text>
+  </g>
+</svg>
