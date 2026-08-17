@@ -6,6 +6,10 @@
 
 <img src="https://raw.githubusercontent.com/omlahore/omlahore/main/assets/stats.svg" alt="Pull requests merged upstream, open right now, projects contributed to, and their combined stars." width="880" />
 
+<br />
+
+<img src="https://raw.githubusercontent.com/omlahore/omlahore/main/assets/languages.svg" alt="Languages by lines changed in pull requests to repositories I do not own: Go, TypeScript, Python and JavaScript." width="880" />
+
 <br /><br />
 
 <a href="https://omlahore.com"><img src="https://img.shields.io/badge/omlahore.com-11151c?style=for-the-badge&logo=google-chrome&logoColor=7aa2f7" alt="Website" /></a>

@@ -64,6 +64,93 @@ def repo_of(item):
     return item["repository_url"].split("/repos/", 1)[1]
 
 
+EXT_LANG = {
+    ".go": "Go", ".ts": "TypeScript", ".tsx": "TypeScript", ".js": "JavaScript",
+    ".jsx": "JavaScript", ".py": "Python", ".rb": "Ruby", ".java": "Java",
+    ".rs": "Rust", ".sh": "Shell", ".yaml": "YAML", ".yml": "YAML",
+    ".css": "CSS", ".scss": "CSS", ".md": "Markdown", ".sql": "SQL",
+}
+
+LANG_COLOR = {
+    "Go": "#7dcfff", "TypeScript": "#7aa2f7", "JavaScript": "#e0af68",
+    "Python": "#9ece6a", "YAML": "#bb9af7", "Shell": "#73daca",
+    "Markdown": "#5b6673", "Ruby": "#f7768e", "CSS": "#7dcfff",
+    "Java": "#e0af68", "Rust": "#f7768e", "SQL": "#9ece6a",
+}
+
+
+def language_bar(prs, out_path="assets/languages.svg"):
+    """Lines changed per language, counted from the files in each PR.
+
+    This is deliberately not "languages in my own repos". Almost none of the
+    work is in repos owned by this account, so that number would describe the
+    wrong thing. This counts code that actually landed in someone else's tree.
+    """
+    lines = {}
+    for it in prs:
+        full = repo_of(it)
+        if full.split("/")[0].lower() == USER.lower():
+            continue
+        num = it["number"]
+        try:
+            files = get(f"/repos/{full}/pulls/{num}/files", {"per_page": 100})
+        except Exception:
+            continue
+        for f in files:
+            ext = os.path.splitext(f.get("filename", ""))[1].lower()
+            lang = EXT_LANG.get(ext)
+            if not lang:
+                continue
+            lines[lang] = lines.get(lang, 0) + f.get("additions", 0) + f.get("deletions", 0)
+
+    if not lines:
+        return None
+
+    total = sum(lines.values())
+    # Anything under 1% is noise on a card meant to show where the depth is.
+    ranked = [kv for kv in sorted(lines.items(), key=lambda kv: -kv[1]) if kv[1] / total >= 0.01][:6]
+    total = sum(n for _, n in ranked)
+
+    w, h, pad = 880, 150, 20
+    bar_y, bar_h, bar_w = 46, 14, w - pad * 2
+    segs, legend, x = [], [], float(pad)
+    for i, (lang, n) in enumerate(ranked):
+        frac = n / total
+        seg_w = max(bar_w * frac, 3)
+        colour = LANG_COLOR.get(lang, "#5b6673")
+        r = "4" if i == 0 else "0"
+        segs.append(f'<rect x="{x:.1f}" y="{bar_y}" width="{seg_w:.1f}" height="{bar_h}" fill="{colour}" rx="{r}"/>')
+        lx = pad + (i % 3) * 290
+        ly = 92 + (i // 3) * 26
+        legend.append(
+            f'<g class="lg" style="animation-delay:{i * .08:.2f}s">'
+            f'<circle cx="{lx + 4}" cy="{ly - 4}" r="4.5" fill="{colour}"/>'
+            f'<text class="mono nm" x="{lx + 16}" y="{ly}" font-size="12.5">{lang}</text>'
+            f'<text class="mono pc" x="{lx + 16 + len(lang) * 7.6 + 10}" y="{ly}" font-size="12.5">{frac * 100:.1f}%</text>'
+            f"</g>"
+        )
+        x += seg_w
+
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Languages by lines changed in pull requests to other people's repositories: {', '.join(f'{l} {n / total * 100:.0f} percent' for l, n in ranked)}.">
+  <style>
+    .mono {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace }}
+    .nm {{ fill: #c9d3df }} .pc {{ fill: #5b6673 }} .hd {{ fill: #5b6673 }}
+    .lg {{ opacity: 0; animation: fade .5s ease-out forwards }}
+    @keyframes fade {{ to {{ opacity: 1 }} }}
+    @media (prefers-reduced-motion: reduce) {{ .lg {{ animation: none; opacity: 1 }} }}
+  </style>
+  <rect width="{w}" height="{h}" rx="10" fill="#11151c" stroke="#1b2330"/>
+  <text class="mono hd" x="{pad}" y="26" font-size="11.5">what I wrote, in repositories I do not own</text>
+  {chr(10).join(segs)}
+  {chr(10).join(legend)}
+</svg>
+'''
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(svg)
+    print(f"{out_path}: " + ", ".join(f"{l} {n}" for l, n in ranked))
+    return ranked
+
+
 def main():
     merged = search_prs("is:merged")
     open_prs = search_prs("is:open")
@@ -124,6 +211,8 @@ def main():
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(svg)
     print(f"{OUT}: {n_merged} merged, {n_open} open, {len(external)} repos, {stars} stars")
+
+    language_bar(merged + open_prs)
 
 
 if __name__ == "__main__":
