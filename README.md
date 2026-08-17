@@ -1,42 +1,77 @@
-# 💫 About Me:
-Hi, I'm Om Lahore from Pune, India — a passionate Computer Science student in my 3rd year at Vishwakarma Institute Of Information Technology, Pune.<br><br>I specialize in crafting responsive web experiences, building full-stack applications, and solving algorithmic problems. I’m currently a Web Developer Intern at Marketing Mojito
+## Om Lahore
 
+Software engineer in Pune, India. I work on backend and cloud-native things, mostly in
+TypeScript and Go, and I spend most of my spare time reading other people's code until I find
+something wrong with it.
 
-## 🌐 Socials
-
-<p align="center">
-  <a href="https://linkedin.com/in/om-lahorey" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:omlahore47@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+<p align="left">
   <a href="https://omlahore.com" target="_blank">
-    <img src="https://img.shields.io/badge/Website-omlahore.com-black?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+    <img src="https://img.shields.io/badge/Website-omlahore.com-111111?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://linkedin.com/in/om-lahorey" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://medium.com/@omlahore47" target="_blank">
-    <img src="https://img.shields.io/badge/Medium-%23000000.svg?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+    <img src="https://img.shields.io/badge/Medium-111111?style=flat-square&logo=medium&logoColor=white" alt="Medium" />
   </a>
   <a href="https://x.com/OmLahorey" target="_blank">
-    <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+    <img src="https://img.shields.io/badge/X-111111?style=flat-square&logo=x&logoColor=white" alt="X" />
+  </a>
+  <a href="mailto:omlahore47@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
+### Open source
 
-# 💻 Tech Stack:
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=omlahore&theme=nightowl&hide_border=true&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=omlahore&theme=nightowl&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=omlahore&theme=nightowl&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+Most of these came from reading the code rather than from an issue tracker.
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=omlahore&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+**[Kyverno](https://github.com/kyverno/kyverno)** (CNCF policy engine, Go)
+[#16977](https://github.com/kyverno/kyverno/pull/16977) is merged and backported to their 1.19
+release. An unchecked type assertion on `request.operation` condition values took the process
+down when a policy compared against a non-string. Three more panic fixes are open.
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=omlahore&limit=5&theme=dark&combine_all_yearly_contributions=true)
+**[SigNoz](https://github.com/SigNoz/signoz)** (OpenTelemetry observability)
+[#12572](https://github.com/SigNoz/signoz/pull/12572): their OpAMP parser read the collector
+config an agent reports about itself and asserted its types outright, so four ordinary YAML
+mistakes panicked it.
 
----
-[![](https://visitcount.itsvg.in/api?id=omlahore&icon=0&color=0)](https://visitcount.itsvg.in)
+**[Grafana](https://github.com/grafana/grafana)**
+[#130413](https://github.com/grafana/grafana/pull/130413): sparklines rendered flat for values
+below 1e-6, because counting decimals with `'' + num` counts the exponent's characters once
+JavaScript switches to exponential notation.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+**[kured](https://github.com/kubereboot/kured)** (Kubernetes reboot daemon)
+[#1410](https://github.com/kubereboot/kured/pull/1410): a lock taken while `--lock-ttl` was unset
+records a zero TTL and can never expire, so a node removed by the autoscaler blocks every reboot
+until someone deletes the annotation by hand.
+
+**[ToolJet](https://github.com/ToolJet/ToolJet)**
+[#17527](https://github.com/ToolJet/ToolJet/pull/17527): a cleanup function that was written but
+never returned, so no avatar blob URL was ever revoked, in a component that renders per row in a
+virtualized list.
+
+Also: [Headlamp](https://github.com/kubernetes-sigs/headlamp/pull/7073),
+[Infisical](https://github.com/Infisical/infisical/pull/7517),
+[Phase](https://github.com/phasehq/console/pull/970),
+[OpenWISP](https://github.com/openwisp/openwisp-radius/pull/750),
+[MDN](https://github.com/mdn/content/pull/38998), and a set of cryptography findings in a
+European end-to-end encrypted photo service, all three confirmed by the vendor and patched the
+same day.
+
+### What I actually use
+
+`TypeScript` `Node` `React` `Go` `Python` `PostgreSQL` `Docker` `Kubernetes` `AWS` `GitHub Actions`
+
+### Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omlahore/omlahore/output/snake.svg" />
+  <img alt="contribution graph" src="https://raw.githubusercontent.com/omlahore/omlahore/output/snake.svg" />
+</picture>
+
+### Writing
+
+- [Dead dependencies don't get archived. They get quiet.](https://medium.com/@omlahore47/dead-dependencies-dont-get-archived-they-get-quiet-5916613a7a39)
+- [Your local agent is spending 39% of its system prompt on skills it will never use](https://medium.com/@omlahore47/your-local-agent-is-spending-39-of-its-system-prompt-on-skills-it-will-never-use-232f6515515c)
+- [shadPS4 shipped 239 commits and none of them say "fix memory leak"](https://medium.com/@omlahore47/shadps4-shipped-239-commits-and-none-of-them-say-fix-memory-leak-a61f32b5cbd8)
