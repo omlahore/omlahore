@@ -17,6 +17,7 @@
 <a href="https://medium.com/@omlahore47"><img src="https://img.shields.io/badge/Writing-11151c?style=for-the-badge&logo=medium&logoColor=7aa2f7" alt="Medium" /></a>
 <a href="https://x.com/OmLahorey"><img src="https://img.shields.io/badge/X-11151c?style=for-the-badge&logo=x&logoColor=7aa2f7" alt="X" /></a>
 <a href="mailto:omlahore47@gmail.com"><img src="https://img.shields.io/badge/Email-11151c?style=for-the-badge&logo=gmail&logoColor=7aa2f7" alt="Email" /></a>
+<img src="https://komarev.com/ghpvc/?username=omlahore&color=11151c&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
