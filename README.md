@@ -86,13 +86,13 @@ someone deletes the annotation by hand.
 <tr>
 <td width="50%" valign="top">
 
-### [ToolJet](https://github.com/ToolJet/ToolJet)
+### [Volcano](https://github.com/volcano-sh/volcano) <sup>CNCF, Go</sup>
 
-A cleanup function that was written but never returned, so no avatar blob URL was
-ever revoked. In a virtualized list that leaks once per scrolled row, and the same
-recycling let a stale response paint the wrong face.
+The rescheduling plugin checks that its threshold config is a map and logs when it
+is not, and then asserts the keys and values inside it without checking anything. A
+quoted number in the scheduler YAML, `cpu: "20"`, takes the scheduler down.
 
-**[#17527](https://github.com/ToolJet/ToolJet/pull/17527)**
+**[#5947](https://github.com/volcano-sh/volcano/pull/5947)**
 
 </td>
 <td width="50%" valign="top">
@@ -109,7 +109,10 @@ builds.
 </tr>
 </table>
 
-Also in [Headlamp](https://github.com/kubernetes-sigs/headlamp/pull/7073),
+Also in [PipeCD](https://github.com/pipe-cd/pipecd/pull/7319),
+[OpenKruise](https://github.com/openkruise/agents/pull/902),
+[maglev](https://github.com/OneBusAway/maglev/pull/1419),
+[Headlamp](https://github.com/kubernetes-sigs/headlamp/pull/7073),
 [Infisical](https://github.com/Infisical/infisical/pull/7517),
 [Phase](https://github.com/phasehq/console/pull/970),
 [OpenWISP](https://github.com/openwisp/openwisp-radius/pull/750) and
