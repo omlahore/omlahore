@@ -8,9 +8,9 @@
   </style>
   <rect width="880" height="150" rx="10" fill="#11151c" stroke="#1b2330"/>
   <text class="mono hd" x="20" y="26" font-size="11.5">what I wrote, in repositories I do not own</text>
-  <rect x="20.0" y="46" width="698.1" height="14" fill="#7dcfff" rx="4"/>
-<rect x="718.1" y="46" width="80.7" height="14" fill="#7aa2f7" rx="0"/>
-<rect x="798.8" y="46" width="32.9" height="14" fill="#9ece6a" rx="0"/>
+  <rect x="20.0" y="46" width="697.9" height="14" fill="#7dcfff" rx="4"/>
+<rect x="717.9" y="46" width="80.8" height="14" fill="#7aa2f7" rx="0"/>
+<rect x="798.7" y="46" width="32.9" height="14" fill="#9ece6a" rx="0"/>
 <rect x="831.6" y="46" width="14.6" height="14" fill="#e0af68" rx="0"/>
 <rect x="846.2" y="46" width="13.8" height="14" fill="#bb9af7" rx="0"/>
   <g class="lg" style="animation-delay:0.00s"><circle cx="24" cy="88" r="4.5" fill="#7dcfff"/><text class="mono nm" x="36" y="92" font-size="12.5">Go</text><text class="mono pc" x="61.2" y="92" font-size="12.5">83.1%</text></g>
