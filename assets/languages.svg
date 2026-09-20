@@ -8,14 +8,14 @@
   </style>
   <rect width="880" height="150" rx="10" fill="#11151c" stroke="#1b2330"/>
   <text class="mono hd" x="20" y="26" font-size="11.5">what I wrote, in repositories I do not own</text>
-  <rect x="20.0" y="46" width="701.6" height="14" fill="#7dcfff" rx="4"/>
-<rect x="721.6" y="46" width="78.7" height="14" fill="#7aa2f7" rx="0"/>
-<rect x="800.3" y="46" width="32.0" height="14" fill="#9ece6a" rx="0"/>
-<rect x="832.3" y="46" width="14.3" height="14" fill="#e0af68" rx="0"/>
-<rect x="846.6" y="46" width="13.4" height="14" fill="#bb9af7" rx="0"/>
-  <g class="lg" style="animation-delay:0.00s"><circle cx="24" cy="88" r="4.5" fill="#7dcfff"/><text class="mono nm" x="36" y="92" font-size="12.5">Go</text><text class="mono pc" x="61.2" y="92" font-size="12.5">83.5%</text></g>
-<g class="lg" style="animation-delay:0.08s"><circle cx="314" cy="88" r="4.5" fill="#7aa2f7"/><text class="mono nm" x="326" y="92" font-size="12.5">TypeScript</text><text class="mono pc" x="412.0" y="92" font-size="12.5">9.4%</text></g>
-<g class="lg" style="animation-delay:0.16s"><circle cx="604" cy="88" r="4.5" fill="#9ece6a"/><text class="mono nm" x="616" y="92" font-size="12.5">Python</text><text class="mono pc" x="671.6" y="92" font-size="12.5">3.8%</text></g>
+  <rect x="20.0" y="46" width="704.2" height="14" fill="#7dcfff" rx="4"/>
+<rect x="724.2" y="46" width="77.2" height="14" fill="#7aa2f7" rx="0"/>
+<rect x="801.4" y="46" width="31.4" height="14" fill="#9ece6a" rx="0"/>
+<rect x="832.8" y="46" width="14.0" height="14" fill="#e0af68" rx="0"/>
+<rect x="846.8" y="46" width="13.2" height="14" fill="#bb9af7" rx="0"/>
+  <g class="lg" style="animation-delay:0.00s"><circle cx="24" cy="88" r="4.5" fill="#7dcfff"/><text class="mono nm" x="36" y="92" font-size="12.5">Go</text><text class="mono pc" x="61.2" y="92" font-size="12.5">83.8%</text></g>
+<g class="lg" style="animation-delay:0.08s"><circle cx="314" cy="88" r="4.5" fill="#7aa2f7"/><text class="mono nm" x="326" y="92" font-size="12.5">TypeScript</text><text class="mono pc" x="412.0" y="92" font-size="12.5">9.2%</text></g>
+<g class="lg" style="animation-delay:0.16s"><circle cx="604" cy="88" r="4.5" fill="#9ece6a"/><text class="mono nm" x="616" y="92" font-size="12.5">Python</text><text class="mono pc" x="671.6" y="92" font-size="12.5">3.7%</text></g>
 <g class="lg" style="animation-delay:0.24s"><circle cx="24" cy="114" r="4.5" fill="#e0af68"/><text class="mono nm" x="36" y="118" font-size="12.5">JavaScript</text><text class="mono pc" x="122.0" y="118" font-size="12.5">1.7%</text></g>
 <g class="lg" style="animation-delay:0.32s"><circle cx="314" cy="114" r="4.5" fill="#bb9af7"/><text class="mono nm" x="326" y="118" font-size="12.5">YAML</text><text class="mono pc" x="366.4" y="118" font-size="12.5">1.6%</text></g>
 </svg>
