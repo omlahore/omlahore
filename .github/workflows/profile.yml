@@ -1,0 +1,96 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/profile.yml"]
+
+permissions:
+  contents: write
+
+env:
+  CARD: theme=tokyonight&bg_color=0d1117&hide_border=true
+  PIN: show_owner=true&description_lines_count=2&theme=tokyonight&bg_color=0d1117&hide_border=true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&rank_icon=github&show=prs_merged,reviews&hide=stars,issues&card_width=495&${{ env.CARD }}
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=${{ github.repository_owner }}&theme=tokyonight&background=0d1117&hide_border=true
+          path: profile/streak.svg
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=grafana&repo=grafana&${{ env.PIN }}
+          path: profile/pin-grafana.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=kyverno&repo=kyverno&${{ env.PIN }}
+          path: profile/pin-kyverno.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=volcano-sh&repo=volcano&${{ env.PIN }}
+          path: profile/pin-volcano.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=project-zot&repo=zot&${{ env.PIN }}
+          path: profile/pin-zot.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=OneBusAway&repo=maglev&${{ env.PIN }}
+          path: profile/pin-maglev.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=volcano-sh&repo=kthena&${{ env.PIN }}
+          path: profile/pin-kthena.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile profile-3d-contrib
+          git commit -m "Update profile cards" || exit 0
+          git push
