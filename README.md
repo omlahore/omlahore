@@ -1,141 +1,66 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/omlahore/omlahore/main/assets/hero.svg" alt="A terminal replaying a real bug: an unchecked Go type assertion that panicked inside Kyverno, the guard that fixed it, and the note that it shipped in release 1.19." width="880" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:7aa2f7&height=180&section=header&text=Om%20Lahore&fontColor=ffffff&fontSize=52&fontAlignY=36&desc=Backend%20and%20cloud%20native%20%7C%20Go%20%C2%B7%20TypeScript%20%C2%B7%20Kubernetes&descAlignY=58&descSize=18" width="100%" alt="Om Lahore" />
+
+<a href="https://github.com/omlahore?tab=repositories"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=20&duration=3600&pause=700&color=7AA2F7&center=true&vCenter=true&width=700&lines=I+read+other+people's+code+until+I+find+something+wrong+with+it." alt="I read other people's code until I find something wrong with it." /></a>
 
 <br />
 
-<img src="https://raw.githubusercontent.com/omlahore/omlahore/main/assets/stats.svg" alt="Pull requests merged upstream, open right now, projects contributed to, and their combined stars." width="880" />
+<img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aomlahore%20is%3Amerged&label=MERGED%20UPSTREAM&style=for-the-badge&color=1f6feb&labelColor=0d1117" alt="Merged upstream" />
+<img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aomlahore%20is%3Aopen&label=OPEN%20NOW&style=for-the-badge&color=7aa2f7&labelColor=0d1117" alt="Open pull requests" />
+<img src="https://komarev.com/ghpvc/?username=omlahore&style=for-the-badge&color=0d1117&label=PROFILE+VIEWS" alt="Profile views" />
 
-<br />
-
-<img src="https://raw.githubusercontent.com/omlahore/omlahore/main/assets/languages.svg" alt="Languages by lines changed in pull requests to repositories I do not own: Go, TypeScript, Python and JavaScript." width="880" />
-
-<br /><br />
-
-<a href="https://omlahore.com"><img src="https://img.shields.io/badge/omlahore.com-11151c?style=for-the-badge&logo=google-chrome&logoColor=7aa2f7" alt="Website" /></a>
-<a href="https://linkedin.com/in/om-lahorey"><img src="https://img.shields.io/badge/LinkedIn-11151c?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" /></a>
-<a href="https://medium.com/@omlahore47"><img src="https://img.shields.io/badge/Writing-11151c?style=for-the-badge&logo=medium&logoColor=7aa2f7" alt="Medium" /></a>
-<a href="https://x.com/OmLahorey"><img src="https://img.shields.io/badge/X-11151c?style=for-the-badge&logo=x&logoColor=7aa2f7" alt="X" /></a>
-<a href="mailto:omlahore47@gmail.com"><img src="https://img.shields.io/badge/Email-11151c?style=for-the-badge&logo=gmail&logoColor=7aa2f7" alt="Email" /></a>
-<img src="https://komarev.com/ghpvc/?username=omlahore&color=11151c&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
+<a href="https://linkedin.com/in/om-lahorey"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" /></a>
+<a href="https://medium.com/@omlahore47"><img src="https://img.shields.io/badge/Writing-0d1117?style=for-the-badge&logo=medium&logoColor=7aa2f7" alt="Medium" /></a>
+<a href="https://x.com/OmLahorey"><img src="https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=7aa2f7" alt="X" /></a>
+<a href="mailto:omlahore47@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=7aa2f7" alt="Email" /></a>
 
 </div>
 
-<br />
+---
 
-## Om Lahore
+Backend and cloud native, mostly Go and TypeScript, out of Mumbai. I'm the first engineer at Ensueno, where I own the API and the Postgres schema for three services. Most of what's below started with me reading a repository, not picking up an issue.
 
-Backend and cloud-native, mostly TypeScript and Go, out of Pune. I read other people's
-code until I find something wrong with it, and most of what is below started that way
-rather than from an issue tracker.
-
-<br />
+---
 
 ## Things I found by reading the code
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| | |
+|---|---|
+| **[Kyverno](https://github.com/kyverno/kyverno)** <sup>CNCF</sup><br />`msgRaw.(string)` on a policy message that resolves to a raw value takes the process down.<br />[#16977](https://github.com/kyverno/kyverno/pull/16977) **merged, backported to release-1.19** | **[zot](https://github.com/project-zot/zot)** <sup>CNCF</sup><br />`tags/list` returned 404 when `last` named a tag that had since been deleted, so a client paging through tags just stopped.<br />[#4448](https://github.com/project-zot/zot/pull/4448) **merged** |
+| **[Grafana](https://github.com/grafana/grafana)**<br />Sparklines rendered flat below `1e-6`, because counting decimals with `'' + num` counts the exponent once JavaScript switches notation.<br />[#130413](https://github.com/grafana/grafana/pull/130413) and [#131844](https://github.com/grafana/grafana/pull/131844) **merged** | **[maglev](https://github.com/OneBusAway/maglev)** <sup>OneBusAway</sup><br />Stop delays were keyed by `stop_id`, so on a loop route that visits a stop twice the delay landed on the wrong visit.<br />[#1415](https://github.com/OneBusAway/maglev/pull/1415) **merged**, 9 merged there in total |
+| **[SigNoz](https://github.com/SigNoz/signoz)** <sup>OpenTelemetry</sup><br />The OpAMP parser asserts types on config an agent reports about itself. Four ordinary YAML mistakes panic it.<br />[#12572](https://github.com/SigNoz/signoz/pull/12572) | **[Volcano](https://github.com/volcano-sh/volcano)** <sup>CNCF</sup><br />A quoted number in the scheduler YAML, `cpu: "20"`, takes the scheduler down through an unchecked assertion.<br />[#5947](https://github.com/volcano-sh/volcano/pull/5947) |
 
-### [Kyverno](https://github.com/kyverno/kyverno) <sup>CNCF, Go</sup>
+Reported privately: three cryptography findings in a European end to end encrypted photo service, including a PBKDF2 iteration count that truncated to a single round on 32 bit builds. All three confirmed, patched and shipped the same day.
 
-`msgRaw.(string)` on a policy message that is a single variable. That resolves to
-the raw value, so it is not always a string, and the assertion took the process
-down.
+Also in [Keploy](https://github.com/keploy/keploy/pull/4611), [kthena](https://github.com/volcano-sh/kthena/pull/1745), [PipeCD](https://github.com/pipe-cd/pipecd/pull/7319), [OpenKruise](https://github.com/openkruise/agents/pull/902), [Headlamp](https://github.com/kubernetes-sigs/headlamp/pull/7073), [kured](https://github.com/kubereboot/kured/pull/1410), [Infisical](https://github.com/Infisical/infisical/pull/7517), [Phase](https://github.com/phasehq/console/pull/970), [OpenWISP](https://github.com/openwisp/openwisp-radius/pull/750) and [MDN](https://github.com/mdn/content/pull/38998).
 
-**[#16977](https://github.com/kyverno/kyverno/pull/16977) merged, backported to
-release-1.19.** Three more panic fixes open.
+---
 
-</td>
-<td width="50%" valign="top">
+## Stack
 
-### [SigNoz](https://github.com/SigNoz/signoz) <sup>OpenTelemetry</sup>
+<div align="center">
 
-Their OpAMP parser reads the collector config an agent reports about *itself*, then
-asserts its types outright. Four ordinary YAML mistakes panic it, the easiest being a
-processor indented one level too deep.
+<img src="https://skillicons.dev/icons?i=go,ts,nodejs,react,python,postgres,docker,kubernetes,aws,githubactions,redis,linux&theme=dark&perline=12" alt="Go, TypeScript, Node.js, React, Python, PostgreSQL, Docker, Kubernetes, AWS, GitHub Actions, Redis, Linux" />
 
-**[#12572](https://github.com/SigNoz/signoz/pull/12572)**
+</div>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+---
 
-### [Grafana](https://github.com/grafana/grafana)
+## The numbers
 
-Sparklines rendered flat below `1e-6`. Counting decimals with `'' + num` counts the
-exponent's characters once JavaScript switches to exponential notation, so
-`1.5e-7` reported four.
+<div align="center">
 
-**[#130413](https://github.com/grafana/grafana/pull/130413)**
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=omlahore&theme=github_dark" width="98%" alt="Profile summary" />
 
-</td>
-<td width="50%" valign="top">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=omlahore&theme=github_dark" width="49%" alt="Repositories per language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=omlahore&theme=github_dark" width="49%" alt="Most committed language" />
 
-### [kured](https://github.com/kubereboot/kured) <sup>Kubernetes</sup>
+<img src="https://streak-stats.demolab.com/?user=omlahore&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D" width="60%" alt="Contribution streak" />
 
-A reboot lock taken while `--lock-ttl` was unset records a zero TTL and can never
-expire. When the autoscaler removes that node, every future reboot blocks until
-someone deletes the annotation by hand.
+</div>
 
-**[#1410](https://github.com/kubereboot/kured/pull/1410)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Volcano](https://github.com/volcano-sh/volcano) <sup>CNCF, Go</sup>
-
-The rescheduling plugin checks that its threshold config is a map and logs when it
-is not, and then asserts the keys and values inside it without checking anything. A
-quoted number in the scheduler YAML, `cpu: "20"`, takes the scheduler down.
-
-**[#5947](https://github.com/volcano-sh/volcano/pull/5947)**
-
-</td>
-<td width="50%" valign="top">
-
-### Reported privately
-
-Three cryptography findings in a European end-to-end encrypted photo service,
-including a PBKDF2 iteration count that truncated to a single round on 32-bit
-builds.
-
-**All three confirmed, patched and shipped the same day.**
-
-</td>
-</tr>
-</table>
-
-Also in [PipeCD](https://github.com/pipe-cd/pipecd/pull/7319),
-[OpenKruise](https://github.com/openkruise/agents/pull/902),
-[maglev](https://github.com/OneBusAway/maglev/pull/1419),
-[Headlamp](https://github.com/kubernetes-sigs/headlamp/pull/7073),
-[Infisical](https://github.com/Infisical/infisical/pull/7517),
-[Phase](https://github.com/phasehq/console/pull/970),
-[OpenWISP](https://github.com/openwisp/openwisp-radius/pull/750) and
-[MDN](https://github.com/mdn/content/pull/38998).
-
-<br />
-
-## What I actually use
-
-<p>
-<img src="https://img.shields.io/badge/TypeScript-11151c?style=flat-square&logo=typescript&logoColor=7aa2f7" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Go-11151c?style=flat-square&logo=go&logoColor=7aa2f7" alt="Go" />
-<img src="https://img.shields.io/badge/Node.js-11151c?style=flat-square&logo=node.js&logoColor=9ece6a" alt="Node.js" />
-<img src="https://img.shields.io/badge/React-11151c?style=flat-square&logo=react&logoColor=7dcfff" alt="React" />
-<img src="https://img.shields.io/badge/Python-11151c?style=flat-square&logo=python&logoColor=e0af68" alt="Python" />
-<img src="https://img.shields.io/badge/PostgreSQL-11151c?style=flat-square&logo=postgresql&logoColor=7aa2f7" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/Docker-11151c?style=flat-square&logo=docker&logoColor=7dcfff" alt="Docker" />
-<img src="https://img.shields.io/badge/Kubernetes-11151c?style=flat-square&logo=kubernetes&logoColor=7aa2f7" alt="Kubernetes" />
-<img src="https://img.shields.io/badge/AWS-11151c?style=flat-square&logo=amazon-web-services&logoColor=e0af68" alt="AWS" />
-<img src="https://img.shields.io/badge/GitHub_Actions-11151c?style=flat-square&logo=github-actions&logoColor=7aa2f7" alt="GitHub Actions" />
-</p>
-
-<br />
+---
 
 ## Writing
 
@@ -143,13 +68,12 @@ Also in [PipeCD](https://github.com/pipe-cd/pipecd/pull/7319),
 - [Your local agent is spending 39% of its system prompt on skills it will never use](https://medium.com/@omlahore47/your-local-agent-is-spending-39-of-its-system-prompt-on-skills-it-will-never-use-232f6515515c)
 - [shadPS4 shipped 239 commits and none of them say "fix memory leak"](https://medium.com/@omlahore47/shadps4-shipped-239-commits-and-none-of-them-say-fix-memory-leak-a61f32b5cbd8)
 
-<br />
+---
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omlahore/omlahore/output/snake.svg" />
-  <img alt="A snake eating this year's contribution graph" src="https://raw.githubusercontent.com/omlahore/omlahore/output/snake.svg" width="880" />
-</picture>
+<img src="https://raw.githubusercontent.com/omlahore/omlahore/output/snake.svg" width="100%" alt="A snake eating this year's contribution graph" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:1f6feb,100:0d1117&height=110&section=footer" width="100%" alt="" />
 
 </div>
