@@ -20,7 +20,7 @@
 
 Hey, I'm Om. I'm a founding engineer at Ensueno in Mumbai, where I work on the API and the Postgres side of three of our services. Most of my open source stuff is in Go.
 
-I also built [RemoveMacAI](https://github.com/omlahore/RemoveMacAI), a command-line tool that turns off Apple Intelligence on macOS 27 and removes its models. It reached #1 on Hacker News and passed 1,500 GitHub stars in its first week.
+I also built [RemoveMacAI](https://github.com/omlahore/RemoveMacAI), a command-line tool that turns off Apple Intelligence on macOS 27 and removes its models. It reached #1 on Hacker News and passed 1,900 GitHub stars in its first week. [MacRumors](https://www.macrumors.com/2026/10/05/apple-intelligence-removal-tool-frees-mac-storage/) and [AppleInsider](https://appleinsider.com/articles/26/10/05/dumb-down-your-mac-save-12gb-by-removing-apple-intelligence) both wrote about it.
 
 I'm open to new roles. The quickest way to reach me is [LinkedIn](https://linkedin.com/in/om-lahorey) or omlahorey@gmail.com.
 
