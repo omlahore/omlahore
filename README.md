@@ -9,7 +9,7 @@
 <a href="https://linkedin.com/in/om-lahorey"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" /></a>
 <a href="https://medium.com/@omlahore47"><img src="https://img.shields.io/badge/Medium-0d1117?style=for-the-badge&logo=medium&logoColor=7aa2f7" alt="Medium" /></a>
 <a href="https://x.com/OmLahorey"><img src="https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=7aa2f7" alt="X" /></a>
-<a href="mailto:omlahore47@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=7aa2f7" alt="Email" /></a>
+<a href="mailto:omlahorey@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=7aa2f7" alt="Email" /></a>
 <br />
 <a href="https://github.com/pulls?q=is%3Apr+author%3Aomlahore+is%3Amerged+-user%3Aomlahore"><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Aomlahore%20is%3Amerged%20-user%3Aomlahore&label=merged%20upstream&style=for-the-badge&color=7aa2f7&labelColor=0d1117" alt="PRs merged upstream" /></a>
 <img src="https://komarev.com/ghpvc/?username=omlahore&style=for-the-badge&color=7aa2f7&label=profile+views" alt="Profile views" />
@@ -20,7 +20,9 @@
 
 Hey, I'm Om. I'm a founding engineer at Ensueno in Mumbai, where I work on the API and the Postgres side of three of our services. Most of my open source stuff is in Go.
 
-I also built [RemoveMacAI](https://github.com/omlahore/RemoveMacAI), a command-line tool that turns off Apple Intelligence on macOS 27 and removes its models. It reached #1 on Hacker News and passed 1,100 GitHub stars in its first week.
+I also built [RemoveMacAI](https://github.com/omlahore/RemoveMacAI), a command-line tool that turns off Apple Intelligence on macOS 27 and removes its models. It reached #1 on Hacker News and passed 1,500 GitHub stars in its first week.
+
+I'm open to new roles. The quickest way to reach me is [LinkedIn](https://linkedin.com/in/om-lahorey) or omlahorey@gmail.com.
 
 ## Open source
 
