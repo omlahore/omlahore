@@ -20,7 +20,9 @@
 
 Hey, I'm Om. I'm a founding engineer at Ensueno in Mumbai, where I work on the API and the Postgres side of three of our services. Most of my open source stuff is in Go.
 
-I also built [RemoveMacAI](https://github.com/omlahore/RemoveMacAI), a command-line tool that turns off Apple Intelligence on macOS 27 and removes its models. It reached #1 on Hacker News and passed 1,900 GitHub stars in its first week. [MacRumors](https://www.macrumors.com/2026/10/05/apple-intelligence-removal-tool-frees-mac-storage/) and [AppleInsider](https://appleinsider.com/articles/26/10/05/dumb-down-your-mac-save-12gb-by-removing-apple-intelligence) both wrote about it.
+I also built [RemoveMacAI](https://github.com/omlahore/RemoveMacAI), a command-line tool that turns off Apple Intelligence on macOS 27 and removes its models. It reached #1 on Hacker News and passed 3,000 GitHub stars in its first week. [Ars Technica](https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/), [MacRumors](https://www.macrumors.com/2026/10/05/apple-intelligence-removal-tool-frees-mac-storage/) and [AppleInsider](https://appleinsider.com/articles/26/10/05/dumb-down-your-mac-save-12gb-by-removing-apple-intelligence) wrote about it, and [Daring Fireball](https://daringfireball.net/linked/2026/10/06/cli-tool-removes-apple-intelligence-from-macos-27) linked to it.
+
+<a href="https://trendshift.io/repositories/275773?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-275773" target="_blank" rel="noopener noreferrer"><img src="profile/trendshift-daily.svg" alt="omlahore%2FRemoveMacAI | Trendshift" width="250" height="55"/></a> <a href="https://trendshift.io/repositories/275773?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-275773" target="_blank" rel="noopener noreferrer"><img src="profile/trendshift-weekly.svg" alt="omlahore%2FRemoveMacAI | Trendshift" width="250" height="55"/></a>
 
 I'm open to new roles. The quickest way to reach me is [LinkedIn](https://linkedin.com/in/om-lahorey) or omlahorey@gmail.com.
 

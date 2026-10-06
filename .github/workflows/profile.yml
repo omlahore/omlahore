@@ -87,6 +87,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
+      - name: Trendshift badges
+        run: |
+          for p in daily weekly; do
+            curl -fsSL --retry 3 -o profile/trendshift-$p.svg "https://trendshift.io/api/badge/trendshift/repositories/275773/$p?language=Swift" || true
+          done
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
