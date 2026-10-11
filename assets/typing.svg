@@ -40,7 +40,7 @@
         x='50%' text-anchor='middle'
         letter-spacing='normal'>
         <textPath xlink:href='#path1'>
-            Full stack, mostly TypeScript and Go
+            Built RemoveMacAI, #1 on Hacker News
         </textPath>
     </text>
         <path id='path2'>
