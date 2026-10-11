@@ -18,7 +18,7 @@
 
 <br />
 
-Hey, I'm Om. I'm a founding engineer at Ensueno, where I work on the API and the Postgres side of our services. Most of my open source work is in Go.
+Hey, I'm Om, a software engineer working in Go, Kubernetes and backend infrastructure. I'm the founding engineer at Ensueno, where I own the API layer and PostgreSQL databases for three production services.
 
 I'm open to new roles. The quickest way to reach me is [LinkedIn](https://linkedin.com/in/om-lahorey) or omlahorey@gmail.com.
 
@@ -60,7 +60,7 @@ It hit #1 on Hacker News, and Linus Tech Tips talked about it on [the WAN Show](
 
 ## Open source
 
-I've had 60+ pull requests merged in more than 25 projects, most of them Go infrastructure. These are the ones I work in the most:
+I'm a member of the Volcano organization in the CNCF, and I've had 66 pull requests merged across 26 open source projects, most of them Go infrastructure. These are the projects I work in the most:
 
 <div align="center">
 
