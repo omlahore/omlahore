@@ -24,6 +24,17 @@ I'm open to new roles. The quickest way to reach me is [LinkedIn](https://linked
 
 ## RemoveMacAI
 
+<div align="center">
+
+<a href="https://github.com/omlahore/RemoveMacAI"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/docs/screens/overview-dark.webp" />
+  <img src="https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/docs/screens/overview-light.webp" width="85%" alt="RemoveMacAI app on macOS 26" />
+</picture></a>
+
+<sub>RemoveMacAI 1.1 on macOS 26. <a href="https://omlahore.github.io/RemoveMacAI/">Website</a> · <a href="https://github.com/omlahore/RemoveMacAI/releases/latest">Download</a></sub>
+
+</div>
+
 [RemoveMacAI](https://github.com/omlahore/RemoveMacAI) turns off Apple Intelligence on a Mac and deletes the models it downloads. It also switches off analytics, personalized ads and a lot of the other extras macOS turns on by default, and you can undo every change. It comes as a native Mac app and a command-line tool.
 
 It hit #1 on Hacker News, and Linus Tech Tips talked about it on [the WAN Show](https://www.youtube.com/watch?v=fKO_826EYo4&t=6564s). [The Verge](https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool), [Ars Technica](https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/), [The Register](https://www.theregister.com/ai-and-ml/2026/10/05/get-rid-of-apples-ai-bloatware-and-reclaim-12-gb-of-storage-with-this-open-source-tool/5301213), [MacRumors](https://www.macrumors.com/2026/10/05/apple-intelligence-removal-tool-frees-mac-storage/) and [AppleInsider](https://appleinsider.com/articles/26/10/05/dumb-down-your-mac-save-12gb-by-removing-apple-intelligence) wrote about it, and [Daring Fireball](https://daringfireball.net/linked/2026/10/06/cli-tool-removes-apple-intelligence-from-macos-27) linked to it.
@@ -44,19 +55,6 @@ It hit #1 on Hacker News, and Linus Tech Tips talked about it on [the WAN Show](
 <a href="https://github.com/omlahore/RemoveMacAI/releases/latest"><img src="https://img.shields.io/github/v/release/omlahore/RemoveMacAI?style=for-the-badge&color=7aa2f7&labelColor=0d1117&label=release" alt="Latest release" /></a>
 
 <a href="https://trendshift.io/repositories/275773?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-275773" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/275773/daily" alt="omlahore%2FRemoveMacAI | Trendshift" width="250" height="55"/></a> <a href="https://trendshift.io/repositories/275773?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-275773" target="_blank" rel="noopener noreferrer"><img src="profile/trendshift-daily.svg" alt="omlahore%2FRemoveMacAI | Trendshift" width="250" height="55"/></a> <a href="https://trendshift.io/repositories/275773?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-275773" target="_blank" rel="noopener noreferrer"><img src="profile/trendshift-weekly.svg" alt="omlahore%2FRemoveMacAI | Trendshift" width="250" height="55"/></a>
-
-<br /><br />
-
-### The app
-
-Pick what to turn off, review every change before it happens, and undo any of it later.
-
-<a href="https://github.com/omlahore/RemoveMacAI"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/docs/screens/overview-dark.webp" />
-  <img src="https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/docs/screens/overview-light.webp" width="85%" alt="RemoveMacAI app on macOS 26" />
-</picture></a>
-
-<sub>RemoveMacAI 1.1 on macOS 26. <a href="https://omlahore.github.io/RemoveMacAI/">Website</a> · <a href="https://github.com/omlahore/RemoveMacAI/releases/latest">Download</a></sub>
 
 </div>
 
