@@ -43,14 +43,20 @@ It hit #1 on Hacker News, and Linus Tech Tips talked about it on [the WAN Show](
 <a href="https://github.com/omlahore/RemoveMacAI/releases"><img src="https://img.shields.io/github/downloads/omlahore/RemoveMacAI/total?style=for-the-badge&color=7aa2f7&labelColor=0d1117&label=downloads" alt="Downloads" /></a>
 <a href="https://github.com/omlahore/RemoveMacAI/releases/latest"><img src="https://img.shields.io/github/v/release/omlahore/RemoveMacAI?style=for-the-badge&color=7aa2f7&labelColor=0d1117&label=release" alt="Latest release" /></a>
 
-<a href="https://trendshift.io/repositories/275773?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-275773" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/275773/daily" alt="omlahore%2FRemoveMacAI | Trendshift" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/275773?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-275773" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/275773/daily" alt="omlahore%2FRemoveMacAI | Trendshift" width="250" height="55"/></a> <a href="https://trendshift.io/repositories/275773?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-275773" target="_blank" rel="noopener noreferrer"><img src="profile/trendshift-daily.svg" alt="omlahore%2FRemoveMacAI | Trendshift" width="250" height="55"/></a> <a href="https://trendshift.io/repositories/275773?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-275773" target="_blank" rel="noopener noreferrer"><img src="profile/trendshift-weekly.svg" alt="omlahore%2FRemoveMacAI | Trendshift" width="250" height="55"/></a>
 
 <br /><br />
+
+### The app
+
+Pick what to turn off, review every change before it happens, and undo any of it later.
 
 <a href="https://github.com/omlahore/RemoveMacAI"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/docs/screens/overview-dark.webp" />
   <img src="https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/docs/screens/overview-light.webp" width="85%" alt="RemoveMacAI app on macOS 26" />
 </picture></a>
+
+<sub>RemoveMacAI 1.1 on macOS 26. <a href="https://omlahore.github.io/RemoveMacAI/">Website</a> · <a href="https://github.com/omlahore/RemoveMacAI/releases/latest">Download</a></sub>
 
 </div>
 
