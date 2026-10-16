@@ -58,6 +58,18 @@ It hit #1 on Hacker News, and Linus Tech Tips talked about it on [the WAN Show](
 
 </div>
 
+## bodycam
+
+<div align="center">
+
+<a href="https://github.com/omlahore/bodycam"><img src="https://raw.githubusercontent.com/omlahore/bodycam/main/assets/banner.png" width="85%" alt="bodycam" /></a>
+
+<sub><a href="https://omlahore.github.io/bodycam/">Website</a> · <a href="https://github.com/omlahore/bodycam/releases/latest">Download</a></sub>
+
+</div>
+
+[bodycam](https://github.com/omlahore/bodycam) records what AI coding agents like Claude Code and Codex do on a Mac: the commands they run, the files they read and change, the secrets they touch and the servers they connect to. It follows the agent and every process it starts through Apple's Endpoint Security logger, flags reads of .env files, SSH keys and the keychain, and writes a report you can share. It comes as a command-line tool and a menu bar app.
+
 ## Open source
 
 I'm a member of the Volcano organization in the CNCF, and I've had 66 pull requests merged across 26 open source projects, most of them Go infrastructure. These are the projects I work in the most:
