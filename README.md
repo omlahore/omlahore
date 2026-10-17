@@ -6,6 +6,7 @@
 
 <br /><br />
 
+<a href="https://omlahore.github.io"><img src="https://img.shields.io/badge/Website-0d1117?style=for-the-badge&logo=googlechrome&logoColor=7aa2f7" alt="Website" /></a>
 <a href="https://linkedin.com/in/om-lahorey"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" /></a>
 <a href="https://medium.com/@omlahore47"><img src="https://img.shields.io/badge/Medium-0d1117?style=for-the-badge&logo=medium&logoColor=7aa2f7" alt="Medium" /></a>
 <a href="https://x.com/OmLahorey"><img src="https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=7aa2f7" alt="X" /></a>
