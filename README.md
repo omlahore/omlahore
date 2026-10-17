@@ -20,7 +20,7 @@
 
 Hey, I'm Om, a software engineer working in Go, Kubernetes and backend infrastructure. I'm the founding engineer at Ensueno, where I own the API layer and PostgreSQL databases for three production services.
 
-I'm open to new roles. The quickest way to reach me is [LinkedIn](https://linkedin.com/in/om-lahorey) or omlahorey@gmail.com.
+I'm available for work, both full-time roles and freelance projects: macOS apps, Claude Code setup for teams, and AWS and CI/CD. The quickest way to reach me is omlahorey@gmail.com or [LinkedIn](https://linkedin.com/in/om-lahorey).
 
 ## RemoveMacAI
 
