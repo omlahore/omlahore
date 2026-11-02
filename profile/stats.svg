@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Om Lahore&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Commits  : 1007, Total PRs: 155, Total PRs Merged: 88, Total PRs Reviewed: 74, Contributed to (last year): 56</desc>
+        <desc id="descId">Total Commits  : 1006, Total PRs: 155, Total PRs Merged: 88, Total PRs Reviewed: 74, Contributed to (last year): 56</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 33.92480035294676;
+        stroke-dashoffset: 33.931626305616795;
       }
     }
   
