@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Om Lahore&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Commits  : 1038, Total PRs: 177, Total PRs Merged: 106, Total PRs Reviewed: 77, Contributed to (last year): 58</desc>
+        <title id="titleId">Om Lahore&#39;s GitHub Stats, Rank: A+</title>
+        <desc id="descId">Total Commits  : 1045, Total PRs: 178, Total PRs Merged: 108, Total PRs Reviewed: 77, Contributed to (last year): 58</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 31.482971624741317;
+        stroke-dashoffset: 31.30626219581052;
       }
     }
   
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >177</text>
+      >178</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs_merged"
-      >106</text>
+      >108</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
