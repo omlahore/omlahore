@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Om Lahore&#39;s GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Commits  : 1058, Total PRs: 183, Total PRs Merged: 113, Total PRs Reviewed: 75, Contributed to (last year): 59</desc>
+        <desc id="descId">Total Commits  : 1061, Total PRs: 186, Total PRs Merged: 113, Total PRs Reviewed: 75, Contributed to (last year): 61</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 30.42197915460021;
+        stroke-dashoffset: 30.034054588650484;
       }
     }
   
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >183</text>
+      >186</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >59</text>
+      >61</text>
     </g>
   </g>
     </svg>
